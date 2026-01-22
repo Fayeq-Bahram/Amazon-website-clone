@@ -1,0 +1,116 @@
+body{
+   font-family: arial;
+   padding-top: 56px;
+   height: 1200px;
+}
+.div-header{
+   background-color: rgb(26, 26, 39);
+   position: fixed;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   height: 66px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+}
+.div-search, div{
+   display: flex; 
+}
+.Search{
+   width: 40px;
+   background-color: rgb(213, 175, 79);
+   background-image: url(/images/search.png);
+   background-repeat: no-repeat;
+   align-items: center;
+   height: 41px;
+   border-radius: 3px;
+   align-self: center;
+   margin-left: -5px;
+}
+
+.home{
+   background-image: url(/images/amazon.png);
+   background-repeat: no-repeat;
+   height: 50px;
+   width: 117px;
+   margin-left: 20px;
+}
+.return-order{
+   width: 90px;
+   color: white;
+   background: rgb(26, 26, 39);
+   font-weight: bold;
+   font-size: 13px;
+   align-items: center;
+   height: 35px;
+   border-radius: 5px; 
+   margin-right: -75px;
+   cursor: pointer;
+
+}
+.return-text{
+   margin-left: 14px;
+}
+.return-order:hover{
+   border: 2px solid rgb(156, 156, 156);
+   border-radius: 2px;
+}
+.input{
+   width: 600px;
+   font-size: 15px;
+   height:  37px;
+   border-radius: 5px;
+ 
+}
+.div-cart{
+   margin-right: 25px;
+   width: 90px;
+   height: 40px;
+   border-radius: 5px;
+   padding-left: 10px;
+   padding-right: 0px;
+   width: 90px;
+
+}
+.div-cart:hover{
+   border: 2px solid rgb(156,156, 156);
+   border-radius: 2px; 
+}
+.cart{
+   width: 90px;
+   height: 40px;
+   border-radius: 5px;
+   margin-left: -10px;
+}
+
+.Search:hover{
+   border: 1px groove rgb(214, 214, 214);
+   border-radius: 3px;
+}
+.return-order{
+   position: relative;
+   right: -20px ;
+}
+.home:active{
+   opacity: 0.8;
+}
+.search:active{
+   opacity: 0.9;
+}
+.return-order:active{
+   opacity: 0.8;
+}
+.cart-quantity{
+   color: rgb(198, 118, 14);
+   position: relative;
+   right: -15px;
+   font-weight: bold;
+   top: -42px;
+}
+.cart-text{
+   color: white;
+   margin-top: -42px;
+   margin-left: 36px;
+}

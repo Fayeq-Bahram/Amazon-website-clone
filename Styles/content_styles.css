@@ -1,0 +1,95 @@
+*{
+   font-family: arial; 
+}
+.content{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   column-gap: 6px;
+   row-gap: 10px;
+}
+
+.product-container{
+   height: 570px;
+   border-right: 2px solid rgb(243, 218, 218);
+   display: grid;
+   row-gap: 1px;
+   justify-items: left;
+}
+
+.id, .ratings{
+   width: 70%;
+  
+}
+.ratings, .price-div{
+  
+   position: relative;
+   margin-top: -30px;
+   margin-left: 30px;
+   height: 30px;
+}
+.product-info, .text{
+   color: rgb(94, 93, 93);
+   font-weight: bold;
+   font-size: 18px;
+}
+.rating-text{
+   position:absolute;
+   right: 130px;
+   top: 5px;
+}
+.price{
+   margin: 0px;
+   font-weight: bold;
+   margin-top: 5px;
+}
+.product-picture{
+   
+   height: 310px;
+   width: 80%;
+   margin-bottom: -36px;
+   margin-top: 2px;
+   margin-left: 30px;
+}
+.product-info{
+   width: 80%;
+   height: 60px;
+   margin-left: 30px;
+   margin-top: 1px;
+}
+.select, option{
+   color: rgb(73, 66, 66);
+   margin-left: 30px;
+   border: 1px solid rgb(255, 234, 234);
+   border-radius: 5px;
+   height: 25px;
+   font-weight: bold;
+   margin-top: -30px;  
+}
+.div-button{
+   margin-left: 30px;
+
+}
+.div-select, select{
+   width: 40px;
+   border-radius: 5px;
+
+}
+.button-add{
+   width: 247px;
+   height: 40px;
+   margin-bottom: -20px;
+   font-weight: bold;
+   font-size: 18px;
+   border-radius: 30px;
+   border: none;
+   margin-right: 25px;
+   background-color: rgb(254, 254, 77);
+   transition-duration: 0.3s;
+}
+.button-add:hover{
+   border-radius: 30px;
+   background-color: rgb(240, 240, 72);
+}
+.button-add:active{
+   opacity: 0.4;
+}
