@@ -4,6 +4,8 @@
  * An interactive multi-page website.
  * Use of flex box grid system.
  * Use of different colors in outline CSS style
+ * DOM manipulation
+ * Event Handling
 # what you can do
  * Add products to the cart
  * remove product from cart
